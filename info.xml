@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<extension key="lastactivitydate" type="module">
+  <file>lastactivitydate</file>
+  <name>Contact Summary - Most Recent Activity</name>
+  <description>Adds the most recent activity date to the contact summary page.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Matt Trim</author>
+    <email>contact@matttrim.com</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://circle-interactive.co.uk</url>
+    <url desc="Documentation">https://circle-interactive.co.uk</url>
+    <url desc="Support">https://circle-interactive.co.uk</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2022-04-25</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>5.0</ver>
+  </compatibility>
+  <comments>Quick and simple hook implementation to add a text string to the top of the contact summary page.</comments>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Lastactivitydate</namespace>
+  </civix>
+</extension>
